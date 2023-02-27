@@ -1,0 +1,12 @@
+#start-panel {
+     width: 1000px;
+     height: 500px;
+     background: lightblue;
+}
+ #start-button {
+     position: relative;
+     width: 200px;
+     height: 50px;
+     left: 400px;
+     top: 200px;
+}
