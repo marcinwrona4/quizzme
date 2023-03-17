@@ -7,13 +7,27 @@
      background: lightblue;
      visibility: visible;
 }
- #start-button {
-     position: relative;
+
+.start-button {
      width: 200px;
      height: 50px;
-     left: 400px;
-     top: 200px;
 }
+#logo {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    transform: translate(-10%, -10%);
+    font-size: 50px;
+    color: green;
+    font-weight: bold;
+}
+#start-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
  #category-panel {
      position: absolute;
      left: 0px;
@@ -37,6 +51,12 @@
      height: 50px;
      display: block;
 }
+#category-buttons {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
  #questions {
      position: absolute;
      left: 0px;
@@ -57,4 +77,15 @@
  h1 {
      color: green;
 }
- 
+#question_and_answers {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#summary-message {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

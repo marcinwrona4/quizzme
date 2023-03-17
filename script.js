@@ -142,7 +142,7 @@ function displayQuestion(category) {
     } else {
         document.getElementById("questions").style.visibility = 'hidden';
         document.getElementById("end-panel").style.visibility = 'visible';
-        document.getElementById("end-panel").innerHTML = "Twój wynik: " + correct_answers.toString() + "/3 prawidłowych odpowiedzi";
+        document.getElementById("summary-message").innerHTML = "Twój wynik: " + correct_answers.toString() + "/3 prawidłowych odpowiedzi";
     }
 
 

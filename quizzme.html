@@ -8,22 +8,28 @@
    </head>
    <body>
       <div id="start-panel">
-         <h1>QuizzMe</h1>
-         <button id="start-button" onclick="goToCategoryPanel()">Start</button> 
+         <div id="logo" class="logo">QuizzMe</div>
+         <div id="start-btn"><button class="start-button" onclick="goToCategoryPanel()">Start</button></div>
       </div>
       <div id="category-panel">
+      	<div id=category-buttons>
          <button class="category-button" onclick="displayQuestion('biology')">Biologia</button> 
          <button class="category-button" onclick="displayQuestion('geography')">Geografia</button>
          <button class="category-button" onclick="displayQuestion('music')">Muzyka</button> 
+        </div>
       </div>
       <div id="questions">
-         <div id="question"></div>
+         <div id="question_and_answers">
+         <div id="question"></div><br>
          <button class="answer-button" id="answer1" onclick="checkAnswer(1)"></button>
          <button class="answer-button" id="answer2" onclick="checkAnswer(2)"></button>
          <button class="answer-button" id="answer3" onclick="checkAnswer(3)"></button>
          <button class="answer-button" id="answer4" onclick="checkAnswer(4)"></button>
       </div>
-      <div id="end-panel"></div>
+   </div>
+      <div id="end-panel">
+         <div id="summary-message"></div>
+      </div>
       <script src="script.js"></script>
    </body>
 </html>
